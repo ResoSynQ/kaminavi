@@ -166,7 +166,7 @@ body {
 
 @media (min-width: 700px) {
   .app-shell {
-    width: min(100vw, 520px);
+    width: min(100vw, 440px);
     margin: 0 auto;
     border-inline: 1px solid rgba(0, 0, 0, 0.15);
   }
