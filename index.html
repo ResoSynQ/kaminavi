@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>カミナビMap モック</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <div id="map" aria-label="瓢箪山駅から枚岡神社までのマップ"></div>
+
+      <section class="event-layer" id="eventLayer" aria-live="polite">
+        <div class="dialogue" id="dialogue"></div>
+        <img class="character" id="character" alt="">
+      </section>
+
+      <div class="progress-panel">
+        <div class="progress-label">
+          <span>START</span>
+          <strong id="progressValue">0%</strong>
+          <span>GOAL</span>
+        </div>
+        <input id="routeSlider" class="route-slider" type="range" min="0" max="1000" value="0" aria-label="ルート上の現在位置">
+      </div>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
