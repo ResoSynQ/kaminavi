@@ -101,8 +101,8 @@ body {
   position: absolute;
   right: -46vw;
   bottom: max(54px, env(safe-area-inset-bottom));
-  width: min(58vw, 330px);
-  max-height: 65vh;
+  width: min(68vw, 390px);
+  max-height: 72vh;
   object-fit: contain;
   object-position: right bottom;
   filter: drop-shadow(0 10px 14px rgba(0, 0, 0, 0.25));
